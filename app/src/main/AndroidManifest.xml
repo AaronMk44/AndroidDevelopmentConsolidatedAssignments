@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.consolidatedassignments">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConsolidatedAssignments">
+        <activity
+            android:name=".assignment2.CreateMeeting"
+            android:exported="false" />
+        <activity
+            android:name=".assignment2.Assignment2"
+            android:exported="false" />
+        <activity
+            android:name=".assignment1.Assignment1Q2"
+            android:exported="true" />
+        <activity
+            android:name=".assignment1.Assignment1Q1"
+            android:exported="true" />
+        <activity
+            android:name=".assignment1.Assignment1"
+            android:exported="true" />
+        <activity
+            android:name=".AssignmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Consolidated Assignments</string>
+    <string name="aaron_mkandawire">Aaron Mkandawire</string>
+    <string name="student_id">Student ID | 2010534</string>
+    <string name="open_assignments"><![CDATA[Open Assignments >]]></string>
+    <string name="assignments">Assignments</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="some_text">Some Text</string>
+    <string name="some_more_text">Some More Text</string>
+    <string name="enter_some_text">Enter some text</string>
+    <string name="enter_some_more_text">Enter some more text</string>
+    <string name="using_the_linearlayout">Using the LinearLayout</string>
+    <string name="click_me">Click Me</string>
+    <string name="open_question_1">Open Question 1</string>
+    <string name="open_question_2">Open Question 2</string>
+    <string name="assignment_1">Assignment 1</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="user">User:</string>
+    <string name="button_4">Button 4</string>
+    <string name="submit">Submit</string>
+    <string name="button_5">Button 5</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="dd_mm_yy">dd/mm/yy</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="time_format">00 : 00 HRS</string>
+    <string name="meeting_type">Meeting Type</string>
+    <string name="receiver_email">Receiver Email</string>
+    <string name="send_invite">Send Invite</string>
+    <string name="long_press_to_set">Long Press to set</string>
+    <string name="priority_low">Priority: Low</string>
+    <string name="meeting_location_address_or_link">Meeting Location (Address or Link)</string>
+    <string name="description">Description</string>
+    <string name="desc">Use this app to schedule and send an invite for a meeting to someone</string>
+    <string name="meeting_invite_app">Meeting Invite App</string>
+
+    <string-array name="meeting_types">
+        <item>In-person</item>
+        <item>Hybrid</item>
+        <item>Virtual</item>
+    </string-array>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="center"
+           android:paddingBottom="30dp">
+
+           <ImageView
+               android:id="@+id/imageView"
+               android:layout_width="match_parent"
+               android:layout_height="249dp"
+               app:srcCompat="@drawable/banner2"
+               tools:layout_editor_absoluteX="0dp"
+               tools:layout_editor_absoluteY="0dp" />
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mobile Application Development"
+               android:textColor="@color/black"
+               android:textSize="20sp"
+               android:layout_marginTop="10dp"
+               tools:layout_editor_absoluteX="60dp"
+               tools:layout_editor_absoluteY="438dp" />
+
+           <TextView
+               android:id="@+id/textView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/assignments"
+               android:textColor="@color/black"
+               android:textSize="20sp"
+               android:layout_marginTop="10dp"
+               tools:layout_editor_absoluteX="147dp"
+               tools:layout_editor_absoluteY="483dp" />
+
+           <Button
+               android:id="@+id/openAssignments"
+               android:layout_width="270dp"
+               android:layout_height="53dp"
+               android:layout_marginTop="20dp"
+               android:onClick="openAssignments"
+               android:text="@string/open_assignments"
+               tools:layout_editor_absoluteX="70dp"
+               tools:layout_editor_absoluteY="555dp" />
+       </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
